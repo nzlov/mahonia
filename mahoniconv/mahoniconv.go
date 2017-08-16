@@ -1,11 +1,12 @@
 package main
 
 import (
-	"code.google.com/p/mahonia"
 	"flag"
 	"io"
 	"log"
 	"os"
+
+	"github.com/nzlov/mahonia"
 )
 
 // An iconv workalike using mahonia.
